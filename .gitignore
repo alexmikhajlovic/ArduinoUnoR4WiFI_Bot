@@ -1,0 +1,103 @@
+#######################################
+# Secrets (your pattern)
+#######################################
+secrets.h
+secrets.hpp
+secrets.cpp
+*.secret.h
+*.secret.hpp
+
+# Optional env-style files
+.env
+.env.*
+
+#######################################
+# Arduino IDE (classic)
+#######################################
+*.ino.cpp
+*.ino.cpp.d
+*.ino.elf
+*.ino.hex
+*.ino.bin
+
+# Arduino temporary build files
+*.o
+*.a
+*.d
+*.eep
+*.lss
+*.lst
+*.map
+
+# Arduino CLI build folders
+build/
+build-*/
+
+#######################################
+# PlatformIO
+#######################################
+.pio/
+.pioenvs/
+.piolibdeps/
+.vscode/.browse.c_cpp.db*
+
+#######################################
+# VS Code
+#######################################
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+#######################################
+# JetBrains (CLion, etc.)
+#######################################
+.idea/
+cmake-build-*/
+
+#######################################
+# CMake (if used)
+#######################################
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+#######################################
+# Compiled objects / binaries
+#######################################
+*.obj
+*.elf
+*.bin
+*.hex
+*.out
+
+#######################################
+# Logs & debug
+#######################################
+*.log
+
+#######################################
+# OS-generated files
+#######################################
+.DS_Store
+Thumbs.db
+desktop.ini
+
+#######################################
+# Python (if you use scripts/tools)
+#######################################
+__pycache__/
+*.pyc
+
+#######################################
+# Misc
+#######################################
+*.swp
+*.swo
+*~
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
